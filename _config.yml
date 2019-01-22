@@ -33,7 +33,7 @@ bd_share: false                          # whether or not using baidu share
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: '<style>div{text-align:justify;text-justify:inter-word;}</style><div>My full name is <b>Chuanqi Zhang</b> (Chinese: <b>传奇</b> <b>张</b>). Currently, I am a graduate student majoring in math at <a href="https://www.wisc.edu/">the University of Wisconsin-Madison</a>.</div>'
+sidebar-about-description: '<style>div{text-align:justify;text-justify:inter-word;}</style><div>My full name is <b>Chuanqi Zhang</b> (Chinese: <b>传奇</b> <b>张</b>). Currently, I am a graduate student majoring in mathematics at <a href="https://www.wisc.edu/">the University of Wisconsin-Madison</a>.</div>'
 sidebar-avatar: /img/me.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
