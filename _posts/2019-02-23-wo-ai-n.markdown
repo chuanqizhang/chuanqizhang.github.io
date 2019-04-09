@@ -11,4 +11,4 @@ tags:
 ---
 
 
-<div> <iframe src="http://chuanqizhang.com/ok.html" height="1000" width="715" allowfullscreen="" frameborder="0"> </iframe> </div>
+<div> <iframe src="http://chuanqizhang.com/ok.html" height="1000" width="100%" allowfullscreen="" frameborder="0"> </iframe> </div>
