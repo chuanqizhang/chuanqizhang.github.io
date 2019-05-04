@@ -11,7 +11,7 @@ tags:
 ---
 
 # Preface 
-This is a course paper written by my classmate Fangyang and me, which is regarding a kaggle project we had worked on together.  
+This is a course paper written by my classmate Fangyang and me, which is based on a kaggle project we had worked on together.  
 &nbsp;
 &nbsp;
 &nbsp;
