@@ -15,5 +15,4 @@ This is a course paper written by my classmate Fangyang and me, which is based o
 &nbsp;
 &nbsp;
 &nbsp;
-# Paper (slide to view)
-<div> <iframe src="http://chuanqizhang.com/html/1.html" height="1000" width="100%" allowfullscreen="" frameborder="0"> </iframe> </div>
+# Paper (click [here](http://chuanqizhang.com/html/Two-Tree-based-Models-on-Customer-Purchase-Predictions.html) to view)
