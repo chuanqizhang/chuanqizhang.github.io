@@ -9,7 +9,7 @@ catalog: trues
 tags:
     - Statistics
 ---
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 # Preface 
 This is a course paper written by my classmate Fangyang and me, which is based on a kaggle project we had worked on together.  
 &nbsp;
