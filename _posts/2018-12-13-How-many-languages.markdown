@@ -15,5 +15,4 @@ This is our solution for [The Mathematical Contest in Modeling](https://www.coma
 &nbsp;
 &nbsp;
 &nbsp;
-# Paper (slide to view)
-<div> <iframe src="http://chuanqizhang.com/html/2.html" height="1000" width="100%" allowfullscreen="" frameborder="0"> </iframe> </div>
+# Paper (click [here](http://chuanqizhang.com/html/How-many-languages.html) to view)
