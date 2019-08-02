@@ -15,4 +15,4 @@ This is a course paper written by my classmate Fangyang and me, which is based o
 &nbsp;
 &nbsp;
 &nbsp;
-# Paper (click [here](http://chuanqizhang.com/html/Two-Tree-based-Models-on-Customer-Purchase-Predictions.html) to view)
+# Paper ([click](http://chuanqizhang.com/html/Two-Tree-based-Models-on-Customer-Purchase-Predictions.html) to view)
