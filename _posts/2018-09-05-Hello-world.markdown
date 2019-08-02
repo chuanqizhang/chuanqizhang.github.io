@@ -7,7 +7,7 @@ author:     "Chuanqi"
 header-img: "img/bg/hello_world.jpg"
 catalog: true
 tags:
-    - Test
+    - Essay
 ---
 
 # Hello, I'm Chuanqi
