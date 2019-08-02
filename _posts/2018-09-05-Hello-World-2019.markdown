@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hello world"
 subtitle:   "Welcome!"
-date:       2018-12-11 21:00:00
+date:       2018-09-05 08:00:00
 author:     "Chuanqi"
 header-img: "img/bg/hello_world.jpg"
 catalog: true
