@@ -9,11 +9,13 @@ catalog: trues
 tags:
     - Statistics
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+
 # Preface 
 This is a course paper written by my classmate Fangyang and me, which is based on a kaggle project we had worked on together.  
 &nbsp;
 &nbsp;
 &nbsp;
 # Paper (slide to view)
-<div> <iframe src="http://chuanqizhang.com/html/1.html" height="1000" width="100%" allowfullscreen="" frameborder="0"> </iframe> </div>
+<div> <iframe src="http://chuanqizhang.com/html/1.html" height="1000" width="100%" allowfullscreen="" frameborder="0"> </iframe>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+</div>
