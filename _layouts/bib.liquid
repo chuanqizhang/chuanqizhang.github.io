@@ -149,14 +149,34 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
-    {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+    {% if entry.type == 'published' %}
+      {% if entry.category == 'Journal' %}
+        {% capture entrytype %} <em>{{ entry.journal }}</em>, {{ entry.year }}. {% endcapture %}
+      {% elsif entry.category == 'Conference' %}
+        {% capture entrytype %} <em>{{ entry.conference }}</em>. {% endcapture %}
+      {% elsif entry.category == 'Journal + Conference' %}
+        {% capture entrytype %} <em>{{ entry.journal }}</em>, {{ entry.year }}. {{ "A preliminary version has appeared at" }} <em>{{ entry.conference }}</em>. {% endcapture %}
+      {% endif %}
+    {% elsif entry.type == 'submitted' %}
+      {% if entry.category == 'Journal' %}
+        {{ "Submitted." }}
+      {% elsif entry.category == 'Conference' %}
+        {{ "Submitted." }}
+      {% elsif entry.category == 'Journal + Conference' %}
+        {% capture entrytype %} <em>{{ entry.conference }}</em>. {{ "A journal version has been submitted." }} {% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %} In {{ entry.booktitle }} {% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+      {% capture entrytype %} {{ entry.school }} {% endcapture %}
     {% elsif entry.type == 'accepted' %}
-      {% capture entrytype %}Accepted to <em>{{ entry.journal }}</em>{% endcapture %}
+      {% if entry.category == 'Journal' %}
+        {% capture entrytype %}Accepted to <em>{{ entry.journal }}</em>, {{ entry.year }}. {% endcapture %}
+      {% elsif entry.category == 'Conference' %}
+        {% capture entrytype %}Accepted to <em>{{ entry.conference }}</em>. {% endcapture %}
+      {% elsif entry.category == 'Journal + Conference' %}
+        {% capture entrytype %}Accepted to <em>{{ entry.journal }}</em>, {{ entry.year }}. {{ "A preliminary version has appeared at" }} <em>{{ entry.conference }}</em>. {% endcapture %}
+      {% endif %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -177,7 +197,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %} {% endif %}{{ entrymonth }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
