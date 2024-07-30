@@ -5,12 +5,71 @@
     slot="{{ include.slot }}"
   {% endif %}
 >
+
+<style>
+  .photo {
+    margin-top: 5px;
+    background-image: var(--global-photo-url);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    padding-top: 75%; 
+  }
+
+  
+  @media (min-width: {{ site.max_width }}px) {
+    .photo {
+      margin-top: 5px;
+      background-image: var(--global-photo-url);
+      width: {{ site.max_width | minus: 30 | times: 0.3 }}px; 
+      padding-top: calc(351px * 0.75);
+    }
+  }
+
+  
+  @media (min-width: 576px) and (max-width: {{ site.max_width }}px) {
+    .photo {
+      margin-top: 5px;
+      background-image: var(--global-photo-url);
+      width: 30vw; 
+      padding-top: calc(30vw * 0.75);
+    }
+  }
+
+  
+  @media (max-width: 576px) {
+    .photo {
+      margin-top: 5px;
+      background-image: var(--global-photo-url);
+      width: 95vw; 
+      padding-top: calc(95vw * 0.75);
+    }
+  }
+</style>
+
+<div class="photo"></div>
+
+<style>
+.photocaption::before {
+    content: var(--global-photo-caption);
+    display:inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 0.8rem;
+  }
+</style>
+
+<div class="photocaption"></div>
+
+{% comment %}
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
+
     {% if site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
@@ -76,3 +135,4 @@
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+{% endcomment %}

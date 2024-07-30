@@ -6,10 +6,14 @@ permalink: /
 
 profile:
   align: left
-  image: photo.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: <font size="+0.5">Captured in Florence, Italy, 2023.</font>
-
+  image: true
+  # image_circular: false # crops the image to make it circular
+  # more_info: <font size="+0.5">Captured in Florence, Italy, 2023.</font>
+  # more_info_light: <font size="+0.5">Captured in Kiama, Australia, 2023.</font>
+  # more_info_dark: <font size="+0.5">Captured in Florence, Italy, 2023.</font>
+  ############################################################################################
+  # Please go to _themes.scss to set the url and the caption of image (under light/dark modes)
+  ############################################################################################
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

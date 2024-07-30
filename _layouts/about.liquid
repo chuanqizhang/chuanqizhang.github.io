@@ -14,6 +14,18 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  {% comment %}
+  <a style="color: var(--global-test);">Test how to call the global color (under different modes)</a>
+  {% endcomment %}
+
+  {% comment %}
+  <div id="mode_detection"></div>
+  <script>
+    const mainModeValue = getComputedStyle(document.documentElement).getPropertyValue('--global-mode').trim();
+    document.getElementById('mode_detection').textContent = `The value of -global-mode is: ${mainModeValue}`;
+  </script>
+  {% endcomment %}
+
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -45,7 +57,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications and Preprints</a>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">Publications and Preprints</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -55,7 +67,7 @@ layout: default
       <h2>
         <p style="font-size: xx-large; color: inherit;">In the News</p>
       </h2>
-      {% include news.liquid limit=true %}
+      {% include news.liquid limit=false %}
     {% endif %}
 
     <!-- Latest posts -->
