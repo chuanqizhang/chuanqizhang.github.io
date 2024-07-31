@@ -7,8 +7,8 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #0070E0;
+  --global-hover-color: #0070E0;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -34,9 +34,9 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
-  --global-journal: #005f9f;
-  --global-conference: #d6be09;
-  --global-journalconference: #d6096f;
+  --global-journal: blue;
+  --global-conference: red;
+  --global-journalconference: #800080;
   --global-test: #09d65e;
   --global-photo-url: url('assets/img/lightphoto.jpg');
   --global-photo-caption: "Captured in Kiama, Australia, 2023.";
@@ -105,9 +105,9 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
-  --global-journal: #00369f;
-  --global-conference: #d64a09;
-  --global-journalconference: #d60917;
+  --global-journal: blue;
+  --global-conference: red;
+  --global-journalconference: #800080;
   --global-test: #8109d6;
   --global-photo-url: url('assets/img/darkphoto.jpg');
   --global-photo-caption: "Captured in Florence, Italy, 2023.";

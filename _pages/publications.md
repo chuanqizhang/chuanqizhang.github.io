@@ -7,6 +7,122 @@ nav: true
 nav_order: 3
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px outset #333;
+        padding: 20px;
+        background-color: var(--global-bg-color);
+        z-index: 1000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 90%;
+        overflow-y: auto;
+    }
+    .overlay {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+    .close-button {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+        font-size: 20px;
+        color: #333;
+    }
+    pre {
+        white-space: pre-wrap; /* Ensures the text wraps inside the popup */
+        word-wrap: break-word; /* Breaks long words to wrap */
+        color: var(--global-text-color); /* Background color of the text inside the popup */
+        }
+</style>
+
+#### Preprints and Publications
+
+1. Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of p-groups of frattini class-2. To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a>
+2. Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In *15th Innovations in Theoretical Computer Science Conference (ITCS 2024)*. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a>
+3. Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. *arXiv preprint arXiv:2212.13154*, 2022. To appear in Theory of Computing. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a>
+4. Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. *Israel Journal of Mathematics*, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a>
+
+<div id="overlay" class="overlay"></div>
+
+<div id="popup" class="popup">
+    <span class="close-button" id="closeButton">&times;</span>
+    <pre id="popupContent"></pre>
+</div>
+
+<script>
+    const contents = {
+        content4: 
+`@inproceedings{ivanyos2024faster,
+  title={Faster isomorphism testing of $p$-groups of Frattini class-2},
+  author={Ivanyos, G{\'a}bor and Mendoza, Euan and Qiao, Youming and Sun, Xiaorui and Zhang, Chuanqi},
+  note={To appear in the 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024).}
+}`,
+        content3: 
+`@inproceedings{chen2023complexity,
+  title={On the Complexity of Isomorphism Problems for Tensors, Groups, and Polynomials III: Actions by Classical Groups},
+  author={Chen, Zhili and Grochow, Joshua A and Qiao, Youming and Tang, Gang and Zhang, Chuanqi},
+  booktitle={15th Innovations in Theoretical Computer Science Conference (ITCS 2024)},
+  year={2024},
+  organization={Schloss-Dagstuhl-Leibniz Zentrum f{\"u}r Informatik}
+}`,
+        content2: 
+`@article{li2022linear,
+  title={On linear-algebraic notions of expansion},
+  author={Li, Yinan and Qiao, Youming and Wigderson, Avi and Wigderson, Yuval and Zhang, Chuanqi},
+  journal={arXiv preprint arXiv:2212.13154},
+  note={To appear in Theory of Computing.},
+  year={2022}
+}`,
+        content1: 
+`@article{li2023connections,
+  title={Connections between graphs and matrix spaces},
+  author={Li, Yinan and Qiao, Youming and Wigderson, Avi and Wigderson, Yuval and Zhang, Chuanqi},
+  journal={Israel Journal of Mathematics},
+  volume={256},
+  number={2},
+  pages={513--580},
+  year={2023},
+  publisher={Springer}
+}`
+    };
+
+    document.querySelectorAll('.bibTeXLink').forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const contentId = link.getAttribute('data-content-id');
+            const content = contents[contentId];
+            document.getElementById('popupContent').textContent = content;
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        });
+    });
+
+    document.getElementById('closeButton').addEventListener('click', function() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    });
+
+    document.getElementById('overlay').addEventListener('click', function() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    });
+</script>
+
 #### Academic Visits
 
 1. School of Mathematics and Statistics, Wuhan University, hosted by [Dr Yinan Li](https://www.yinanli.com/), January 2024. 

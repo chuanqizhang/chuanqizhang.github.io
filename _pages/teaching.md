@@ -7,6 +7,23 @@ nav: true
 nav_order: 4
 ---
 
-1. Theory of Computing Science (41080), School of Computer Science, University of Technology Sydney, 2022-2024
-2. Discrete Mathematics (37181), School of Computer Science, University of Technology Sydney, 2024
-3. Mathematics 1 (33130), School of Computer Science, University of Technology Sydney, 2024
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<style>
+    body {
+    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+    }
+    ol.custom-list {
+    list-style: decimal;
+    padding-left: 20px;
+    }
+
+    ol.custom-list li {
+    margin-bottom: 10px; /* 调整每个列表项之间的间距 */
+    }
+</style>
+
+<ol class="custom-list">
+    <li>Theory of Computing Science, School of Computer Science, University of Technology Sydney, 2022-2024</li>
+    <li>Discrete Mathematics, School of Computer Science, University of Technology Sydney, 2024</li>
+    <li>Mathematics 1, School of Computer Science, University of Technology Sydney, 2024</li>
+</ol>
