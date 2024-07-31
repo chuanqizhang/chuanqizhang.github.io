@@ -77,12 +77,12 @@ nav_order: 3
     <div class="popup-header">
         <span class="close-button" id="closeButton">&times;</span>
     </div>
-    <pre id="popupContent"></pre>
+    <pre id="popupContent">Sorry, I'm trying to add this information.</pre>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    
+
      const contents = {
 
         content4: 
