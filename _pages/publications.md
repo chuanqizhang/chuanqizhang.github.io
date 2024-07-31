@@ -81,7 +81,10 @@ nav_order: 3
 </div>
 
 <script>
-    const contents = {
+document.addEventListener('DOMContentLoaded', function() {
+    
+     const contents = {
+
         content4: 
 `@inproceedings{ivanyos2024faster,
   title={Faster isomorphism testing of $p$-groups of Frattini class-2},
@@ -137,7 +140,7 @@ nav_order: 3
         document.getElementById('popup').style.display = 'none';
         document.getElementById('overlay').style.display = 'none';
     });
-
+});
 </script>
 
 <hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
