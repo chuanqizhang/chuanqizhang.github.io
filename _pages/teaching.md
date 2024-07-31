@@ -11,7 +11,6 @@ nav_order: 4
 <style>
     body {
     font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
-    text-align: justify;
     }
     ol.custom-list {
     list-style: decimal;
