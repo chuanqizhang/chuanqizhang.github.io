@@ -66,7 +66,7 @@ nav_order: 3
 -- Authors are listed in alphabetical order, unless specified otherwise.
 
 <ol class="custom-list">
-    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of p-groups of frattini class-2. To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
+    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of \(p\)-groups of frattini class-2. To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
     <li>Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In <em>15th Innovations in Theoretical Computer Science Conference (ITCS 2024)</em>. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. <em>arXiv preprint arXiv:2212.13154</em>, 2022. To appear in Theory of Computing. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. <em>Israel Journal of Mathematics</em>, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a></li>
