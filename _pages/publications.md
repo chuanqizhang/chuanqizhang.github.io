@@ -7,4 +7,20 @@ nav: true
 nav_order: 3
 ---
 
-Hello, world!
+#### Academic Visits
+
+1. School of Mathematics and Statistics, Wuhan University, hosted by [Dr Yinan Li](https://www.yinanli.com/), January 2024. 
+2. QuSoft, Centrum Wiskunde & Informatica, hosted by [Dr Jop Briët](https://homepages.cwi.nl/~jop/), January 2023.  
+
+#### Presentations
+
+1. Contributed talk at the 65th IEEE Annual Symposium on Foundations of Computer Science (FOCS), Chicago, October 2024.
+2. Contributed talk at the 19th Theory of Quantum Computation, Communication and Cryptography (TQC), Okinawa, September 2024.
+3. Seminar talk at UTS Groups Analysis Geometry Seminar, Sydney, April 2024.
+4. Contributed talk at the 45th Australasian Combinatorics Conference, Perth, December 2023.
+5. Contributed talk at the 67th Annual Meeting of the Australian Mathematical Society, Brisbane, December 2023.
+6. Poster presentation at the 18th Theory of Quantum Computation, Communication and Cryptography (TQC), online, July 2023.
+7. Seminar talk at QuSoft, Centrum Wiskunde \& Informatica, Amsterdam, January 2023.
+8. Poster presentation at the 1st Quantum Australia Conference, Sydney, February 2023.
+9. Contributed talk at the 34th ACM-SIAM Symposium on Discrete Algorithms (SODA), Florence, January 2023.
+10. Contributed talk at the 44th Australasian Combinatorics Conference, online, December 2022.
