@@ -23,6 +23,7 @@ social: true # includes social icons at the bottom of the page
 <style>
     body {
     font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+    text-align: justify;
     }
 </style>
 

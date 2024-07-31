@@ -11,6 +11,7 @@ nav_order: 4
 <style>
     body {
     font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+    text-align: justify;
     }
     ol.custom-list {
     list-style: decimal;
@@ -18,12 +19,12 @@ nav_order: 4
     }
 
     ol.custom-list li {
-    margin-bottom: 10px; /* 调整每个列表项之间的间距 */
+    margin-bottom: 10px;
     }
 </style>
 
 <ol class="custom-list">
-    <li>Theory of Computing Science, School of Computer Science, University of Technology Sydney, 2022-2024</li>
-    <li>Discrete Mathematics, School of Computer Science, University of Technology Sydney, 2024</li>
-    <li>Mathematics 1, School of Computer Science, University of Technology Sydney, 2024</li>
+    <li>Theory of Computing Science, School of Computer Science, University of Technology Sydney, 2022-2024.</li>
+    <li>Discrete Mathematics, School of Mathematical and Physical Sciences, University of Technology Sydney, 2024.</li>
+    <li>Mathematics 1, School of Mathematical and Physical Sciences, University of Technology Sydney, 2024.</li>
 </ol>

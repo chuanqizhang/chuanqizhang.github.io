@@ -11,6 +11,14 @@ nav_order: 3
 <style>
     body {
         font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+        text-align: justify;
+    }
+    ol.custom-list {
+    list-style: decimal;
+    padding-left: 30px;
+    }
+    ol.custom-list li {
+    margin-bottom: 10px;
     }
     .popup {
         display: none;
@@ -36,31 +44,40 @@ nav_order: 3
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 999;
     }
+    .popup-header {
+        text-align: right; /* Aligns the close button to the right */
+        margin-top: -15px;
+    }
     .close-button {
-        display: block;
-        text-align: right;
+        display: inline-block;
         cursor: pointer;
-        font-size: 20px;
-        color: #333;
+        font-size: 30px;
+        color: #555;
     }
     pre {
         white-space: pre-wrap; /* Ensures the text wraps inside the popup */
         word-wrap: break-word; /* Breaks long words to wrap */
         color: var(--global-text-color); /* Background color of the text inside the popup */
+        text-align: left;
         }
 </style>
 
 #### Preprints and Publications
+-- Authors are listed in alphabetical order, unless specified otherwise.
 
-1. Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of p-groups of frattini class-2. To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a>
-2. Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In *15th Innovations in Theoretical Computer Science Conference (ITCS 2024)*. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a>
-3. Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. *arXiv preprint arXiv:2212.13154*, 2022. To appear in Theory of Computing. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a>
-4. Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. *Israel Journal of Mathematics*, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a>
+<ol class="custom-list">
+    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of p-groups of frattini class-2. To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
+    <li>Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In <em>15th Innovations in Theoretical Computer Science Conference (ITCS 2024)</em>. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a></li>
+    <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. <em>arXiv preprint arXiv:2212.13154</em>, 2022. To appear in Theory of Computing. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a></li>
+    <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. <em>Israel Journal of Mathematics</em>, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a></li>
+</ol>
 
 <div id="overlay" class="overlay"></div>
 
 <div id="popup" class="popup">
-    <span class="close-button" id="closeButton">&times;</span>
+    <div class="popup-header">
+        <span class="close-button" id="closeButton">&times;</span>
+    </div>
     <pre id="popupContent"></pre>
 </div>
 
@@ -121,22 +138,32 @@ nav_order: 3
         document.getElementById('popup').style.display = 'none';
         document.getElementById('overlay').style.display = 'none';
     });
+
 </script>
 
+<hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
+
 #### Academic Visits
+<p style="margin-bottom: 20px;"></p>
+<ol class="custom-list">
+    <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Dr Yinan Li</a>, January 2024. </li>
+    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr Jop Briët</a>, January 2024. </li>
+</ol>
 
-1. School of Mathematics and Statistics, Wuhan University, hosted by [Dr Yinan Li](https://www.yinanli.com/), January 2024. 
-2. QuSoft, Centrum Wiskunde & Informatica, hosted by [Dr Jop Briët](https://homepages.cwi.nl/~jop/), January 2023.  
+<hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
 
-#### Presentations
+#### Presentations 
+-- Some of the conference talks were delivered by coauthors.
 
-1. Contributed talk at the 65th IEEE Annual Symposium on Foundations of Computer Science (FOCS), Chicago, October 2024.
-2. Contributed talk at the 19th Theory of Quantum Computation, Communication and Cryptography (TQC), Okinawa, September 2024.
-3. Seminar talk at UTS Groups Analysis Geometry Seminar, Sydney, April 2024.
-4. Contributed talk at the 45th Australasian Combinatorics Conference, Perth, December 2023.
-5. Contributed talk at the 67th Annual Meeting of the Australian Mathematical Society, Brisbane, December 2023.
-6. Poster presentation at the 18th Theory of Quantum Computation, Communication and Cryptography (TQC), online, July 2023.
-7. Seminar talk at QuSoft, Centrum Wiskunde \& Informatica, Amsterdam, January 2023.
-8. Poster presentation at the 1st Quantum Australia Conference, Sydney, February 2023.
-9. Contributed talk at the 34th ACM-SIAM Symposium on Discrete Algorithms (SODA), Florence, January 2023.
-10. Contributed talk at the 44th Australasian Combinatorics Conference, online, December 2022.
+<ol class="custom-list" style="text-align: left;">
+    <li>Contributed talk at the 65th IEEE Annual Symposium on Foundations of Computer Science (FOCS), Chicago, October 2024.</li>
+    <li>Contributed talk at the 19th Theory of Quantum Computation, Communication and Cryptography (TQC), Okinawa, September 2024.</li>
+    <li>Seminar talk at UTS Groups Analysis Geometry Seminar, Sydney, April 2024.</li>
+    <li>Contributed talk at the 45th Australasian Combinatorics Conference, Perth, December 2023.</li>
+    <li>Contributed talk at the 67th Annual Meeting of the Australian Mathematical Society, Brisbane, December 2023.</li>
+    <li>Poster presentation at the 18th Theory of Quantum Computation, Communication and Cryptography (TQC), online, July 2023.</li>
+    <li>Poster presentation at the 1st Quantum Australia Conference, Sydney, February 2023.</li>
+    <li>Seminar talk at QuSoft, Centrum Wiskunde & Informatica, Amsterdam, January 2023.</li>
+    <li>Contributed talk at the 34th ACM-SIAM Symposium on Discrete Algorithms (SODA), Florence, January 2023.</li>
+    <li>Contributed talk at the 44th Australasian Combinatorics Conference, online, December 2022.</li>
+</ol>

@@ -11,4 +11,6 @@ permalink: /news/
     }
 </style>
 
+<!-- Please go to _news/ to make or modify announcements -->
+
 {% include news.liquid %}

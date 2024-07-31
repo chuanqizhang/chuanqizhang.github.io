@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I've been invited for a profile interview to highlight my experiences and achievements during my undergraduate studies, used for Wuhan University’s admissions publicity in my home province. Check it out [here](https://mp.weixin.qq.com/s/vmqLsMbr36th2ia8ftulWQ) (in Chinese).
+I was invited for a profile interview to highlight my experiences and achievements during the undergraduate studies, used for Wuhan University’s admissions publicity in my home province. Check it out [here](https://mp.weixin.qq.com/s/vmqLsMbr36th2ia8ftulWQ) (in Chinese).
