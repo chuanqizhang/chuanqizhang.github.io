@@ -77,7 +77,7 @@ nav_order: 3
     <div class="popup-header">
         <span class="close-button" id="closeButton">&times;</span>
     </div>
-    <pre id="popupContent">Sorry, I'm trying to add this information.</pre>
+    <pre id="popupContent">&nbsp;</pre>
 </div>
 
 <script>
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p style="margin-bottom: 20px;"></p>
 <ol class="custom-list">
     <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Dr Yinan Li</a>, January 2024. </li>
-    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr Jop Briët</a>, January 2024. </li>
+    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr Jop Briët</a>, January 2023. </li>
 </ol>
 
 <hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>

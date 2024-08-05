@@ -212,7 +212,7 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
-      {% if entry.abstract %}
+      {%- if site.data.abstract[entry.index] -%}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
       {% if entry.arxiv %}
@@ -346,10 +346,28 @@
       </div>
     {% endif %}
 
-    {% if entry.abstract %}
+    {%- if site.data.abstract[entry.index] -%}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script>
+          window.MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']],
+              packages: {'[+]': ['base', 'ams']}
+            }
+          };
+        </script>
+        {% assign keychain = site.data.abstract[entry.index] %}
+
+        {% assign count = 0 %}
+        {% for key in keychain %}
+          {% assign count = count | plus: 1 %}
+          {% assign abs_index = "abs" | append: count %}
+          <p>{{ keychain[abs_index] }}</p>
+        {% endfor %}
+
       </div>
     {% endif %}
 

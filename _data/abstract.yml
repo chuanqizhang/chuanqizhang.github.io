@@ -1,0 +1,34 @@
+# ':' needs to be replaced with '&#58;'
+# '--' needs to be replaced with '&ndash;'
+# '---' needs to be replaced with '&mdash;'
+
+"1":
+
+  abs1: Given a bipartite graph $G$, the graphical matrix space $\mathcal{S}_G$ consists of matrices whose non-zero entries can only be at those positions corresponding to edges in $G$. Tutte (<em>J. London Math. Soc.</em>, 1947), Edmonds (<em>J. Res. Nat. Bur. Standards Sect. B</em>, 1967) and Lovász (<em>FCT</em>, 1979) observed connections between perfect matchings in $G$ and full-rank matrices in $\mathcal{S}_G$. Dieudonné (<em>Arch. Math.</em>, 1948) proved a tight upper bound on the dimensions of those matrix spaces containing only singular matrices. The starting point of this paper is a simultaneous generalization of these two classical results&#58; we show that the largest dimension over subspaces of $\mathcal{S}_G$ containing only singular matrices is equal to the maximum size over subgraphs of $G$ without perfect matchings, based on Meshulam's proof of Dieudonné's result (<em>Quart. J. Math.</em>, 1985).
+  
+  abs2: Starting from this result, we go on to establish more connections between properties of graphs and matrix spaces. For example, we establish connections between acyclicity and nilpotency, between strong connectivity and irreducibility, and between isomorphism and conjugacy/congruence. For each connection, we study three types of correspondences, namely the basic correspondence, the inherited correspondence (for subgraphs and subspaces), and the induced correspondence (for induced subgraphs and restrictions). Some correspondences lead to intriguing generalizations of classical results, such as Dieudonné's result mentioned above, and a celebrated theorem of Gerstenhaber regarding the largest dimension of nil matrix spaces (<em>Amer. J. Math.</em>, 1958).
+  
+  abs3: Finally, we show some implications of our results to quantum information and present open problems in computational complexity motivated by these results.
+
+"2":
+
+  abs1: We study the complexity of isomorphism problems for $d$-way arrays, or tensors, under natural actions by classical groups such as orthogonal, unitary, and symplectic groups. These problems arise naturally in statistical data analysis and quantum information. We study two types of complexity-theoretic questions. First, for a fixed action type (isomorphism, conjugacy, etc.), we relate the complexity of the isomorphism problem over a classical group to that over the general linear group. Second, for a fixed group type (orthogonal, unitary, or symplectic), we compare the complexity of the isomorphism problems for different actions. 
+
+  abs2: Our main results are as follows. First, for orthogonal and symplectic groups acting on $3$-way arrays, the isomorphism problems reduce to the corresponding problems over the general linear group. Second, for orthogonal and unitary groups, the isomorphism problems of five natural actions on $3$-way arrays are polynomial-time equivalent, and the $d$-tensor isomorphism problem reduces to the $3$-tensor isomorphism problem for any fixed $d>3$. For unitary groups, the preceding result implies that LOCC classification of tripartite quantum states is at least as difficult as LOCC classification of $d$-partite quantum states for any $d$. Lastly, we also show that the graph isomorphism problem reduces to the tensor isomorphism problem over orthogonal and unitary groups. 
+
+
+"3":
+  
+  abs1: A fundamental fact about bounded-degree graph expanders is that three notions of expansion&mdash;vertex expansion, edge expansion, and spectral expansion&mdash;are all equivalent. In this paper, we study to what extent such a statement is true for linear-algebraic notions of expansion.
+
+  abs2: There are two well-studied notions of linear-algebraic expansion, namely dimension expansion (defined in analogy to graph vertex expansion) and quantum expansion (defined in analogy to graph spectral expansion). Lubotzky and Zelmanov proved that the latter implies the former. We prove that the converse is false&#58; There are dimension expanders which are not quantum expanders. This also answers in the negative questions of Lubotzky&ndash;Zelmanov and Dvir&ndash;Shpilka on the relation between dimension expansion and Kazhdan's property T.
+
+  abs3: Moreover, this asymmetry is explained by the fact that there are two <em>distinct</em> linear-algebraic analogues of graph edge expansion. The first of these is <em>quantum edge expansion</em>, which was introduced by Hastings, and which he proved to be equivalent to quantum expansion. We introduce a new notion, termed <em>dimension edge expansion</em>, which we prove is equivalent to dimension expansion and which is implied by quantum edge expansion. Thus, the separation above is implied by a finer one&#58; dimension edge expansion is strictly weaker than quantum edge expansion. This new notion also leads to a new, more modular proof of the Lubotzky&ndash;Zelmanov result that quantum expanders are dimension expanders.
+
+"4":
+
+  abs1: The finite group isomorphism problem asks to decide whether two finite groups of order $N$ are isomorphic. Improving the classical $N^{O(\log N)}$-time algorithm for group isomorphism is a long-standing open problem. It is generally regarded that $p$-groups of class $2$ and exponent $p$ form a bottleneck case for group isomorphism in general. The recent breakthrough by Sun (<em>STOC</em> '23) presents an $N^{O((\log N)^{5/6})}$-time algorithm for this group class.
+
+  abs2: In this paper, we improve Sun's algorithm by presenting an $N^{\tilde O((\log N)^{1/2})}$-time algorithm for this group class. We also extend our result to the more general $p$-groups of Frattini class-$2$, which includes non-abelian $2$-groups.
+
+  abs3: Our algorithm is obtained by sharpening the key technical ingredients in Sun's algorithm and building connections with other research topics. One intriguing connection is with the maximal and non-commutative ranks of matrix spaces, which have recently received considerable attention in algebraic complexity and computational invariant theory. Results from the theory of Tensor Isomorphism complexity class (Grochow&ndash;Qiao, <em>SIAM J. Comput.</em> '23) are utilized to simplify the algorithm and achieve the extension to $p$-groups of Frattini class-$2$.
