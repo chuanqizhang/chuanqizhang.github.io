@@ -361,7 +361,7 @@
           };
         </script>
         {% endcomment %}
-        
+
         {% assign keychain = site.data.abstract[entry.index] %}
         {% assign count = 0 %}
         {% for key in keychain %}
@@ -370,13 +370,10 @@
           {% assign keychain_copy = keychain[abs_index] %}
           
           {% assign parts = keychain[abs_index] | split: "$" %}
-          {% assign dcount = 0 %}
-          {% for item in parts | split: "$" %}
-            {% assign dcount = dcount | plus: 1 %}
-            {% if dcount | modulo: 2 == 0 %}
+          {% assign loop_length = parts.size | divided_by: 2 | floor %}
+          {% for i in (1..loop_length) %}
               {% assign keychain_copy = keychain_copy | replace_first: "$", "\\(" %}
               {% assign keychain_copy = keychain_copy | replace_first: "$", "\\)" %}
-            {% endif %}
           {% endfor %}
           
           <p>{{ keychain_copy }}</p>
