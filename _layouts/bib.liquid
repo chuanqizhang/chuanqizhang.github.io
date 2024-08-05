@@ -349,6 +349,7 @@
     {%- if site.data.abstract[entry.index] -%}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
+        {% comment %}
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script>
@@ -359,13 +360,26 @@
             }
           };
         </script>
+        {% endcomment %}
+        
         {% assign keychain = site.data.abstract[entry.index] %}
-
         {% assign count = 0 %}
         {% for key in keychain %}
           {% assign count = count | plus: 1 %}
           {% assign abs_index = "abs" | append: count %}
-          <p>{{ keychain[abs_index] }}</p>
+          {% assign keychain_copy = keychain[abs_index] %}
+          
+          {% assign parts = keychain[abs_index] | split: "$" %}
+          {% assign dcount = 0 %}
+          {% for item in parts | split: "$" %}
+            {% assign dcount = dcount | plus: 1 %}
+            {% if dcount | modulo: 2 == 0 %}
+              {% assign keychain_copy = keychain_copy | replace_first: "$", "\\(" %}
+              {% assign keychain_copy = keychain_copy | replace_first: "$", "\\)" %}
+            {% endif %}
+          {% endfor %}
+          
+          <p>{{ keychain_copy }}</p>
         {% endfor %}
 
       </div>

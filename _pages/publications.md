@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
 
 #### Presentations 
--- Some of the conference talks were delivered by coauthors.
+-- Some of the conference talks were delivered by my coauthors.
 
 <ol class="custom-list">
     <li>Contributed talk at the 65th IEEE Annual Symposium on Foundations of Computer Science (FOCS), Chicago, October 2024.</li>
