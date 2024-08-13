@@ -18,7 +18,6 @@ nav_order: 4
     list-style: decimal;
     padding-left: 20px;
     }
-
     ol.custom-list li {
     margin-bottom: 10px;
     }
@@ -29,7 +28,10 @@ nav_order: 4
 
 <!-- <p style="margin-bottom: 20px;"></p> -->
 <ol class="custom-list">
-    <li>Theory of Computing Science, School of Computer Science, University of Technology Sydney, 2022-2024.</li>
+    <li>Theory of Computing Science, School of Computer Science, University of Technology Sydney, 2022-2024. 
+    <br>
+    <a href="../assets/pdf/teaching/41080week2.pdf">[Slides 1]</a>
+    </li>
     <li>Discrete Mathematics, School of Mathematical and Physical Sciences, University of Technology Sydney, 2024.</li>
     <li>Mathematics 1, School of Mathematical and Physical Sciences, University of Technology Sydney, 2024.</li>
 </ol>
