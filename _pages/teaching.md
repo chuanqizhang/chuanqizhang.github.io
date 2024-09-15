@@ -32,6 +32,8 @@ nav_order: 4
     <br>
     <a href="../assets/pdf/teaching/41080week2.pdf">[Slides 1]</a>
     <a href="../assets/pdf/teaching/41080week3.pdf">[Slides 2]</a>
+    <a href="../assets/pdf/teaching/41080week5.pdf">[Slides 3]</a>
+    <a href="../assets/pdf/teaching/41080week6.pdf">[Slides 4]</a>
     </li>
     <li>Discrete Mathematics, School of Mathematical and Physical Sciences, University of Technology Sydney, 2024.</li>
     <li>Mathematics 1, School of Mathematical and Physical Sciences, University of Technology Sydney, 2024.</li>
