@@ -163,7 +163,11 @@
       {% elsif entry.category == 'Conference' %}
         {{ "Submitted." }}
       {% elsif entry.category == 'Journal + Conference' %}
+        {% if entry.invited == 'true' %}
+        {% capture entrytype %} <em>{{ entry.conference }}</em>. Invited to the {{ entry.journal | strip }} Special Issue. {% endcapture %}
+        {% else %}
         {% capture entrytype %} <em>{{ entry.conference }}</em>. {{ "A journal version has been submitted." }} {% endcapture %}
+        {% endif %}
       {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %} In {{ entry.booktitle }} {% endcapture %}
@@ -218,6 +222,13 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/pdf/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+      {% if entry.pdf %}
+        {% if entry.pdf contains '://' %}
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        {% else %}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        {% endif %}
+      {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
@@ -259,13 +270,6 @@
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
       {% elsif entry.video %}
         <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
-      {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% endif %}
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
