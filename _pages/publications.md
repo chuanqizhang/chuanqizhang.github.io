@@ -65,7 +65,7 @@ nav_order: 3
 -- Authors are listed in alphabetical order, unless specified otherwise.
 
 <ol class="custom-list" style="text-align: justify;">
-    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of \(p\)-groups of Frattini class \(2\). To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
+    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of \(p\)-groups of Frattini class \(2\). In <em>2024 IEEE 65th Annual Symposium on Foundations of Computer Science (FOCS)</em>, pages 1408-1424. IEEE, 2024. <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
     <li>Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In <em>15th Innovations in Theoretical Computer Science Conference (ITCS 2024)</em>. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. <em>arXiv preprint arXiv:2212.13154</em>, 2022. To appear in Theory of Computing. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. <em>Israel Journal of Mathematics</em>, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a></li>
@@ -153,10 +153,10 @@ document.addEventListener('DOMContentLoaded', function() {
 #### Academic Visits
 <p style="margin-bottom: 20px;"></p>
 <ol class="custom-list">
-    <li>Department of Computer Sciences, University of Wisconsin-Madison, hosted by <a href="https://sandeepsilwal.com/">Prof Sandeep Silwal</a>, November 1, 2024. </li>
-    <li>Department of Mathematics, University of Wisconsin-Madison, hosted by <a href="https://people.math.wisc.edu/~tonghaiyang/">Prof Tonghai Yang</a>, October 31, 2024. </li>
-    <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Prof Yinan Li</a>, January 12, 2024. </li>
-    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr Jop Briët</a>, January 26-27, 2023. </li>
+    <li>Department of Computer Sciences, University of Wisconsin-Madison, hosted by <a href="https://sandeepsilwal.com/">Prof. Sandeep Silwal</a>, Nov. 1, 2024. </li>
+    <li>Department of Mathematics, University of Wisconsin-Madison, hosted by <a href="https://people.math.wisc.edu/~tonghaiyang/">Prof. Tonghai Yang</a>, Oct. 31, 2024. </li>
+    <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Prof. Yinan Li</a>, Jan. 12, 2024. </li>
+    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr. Jop Briët</a>, Jan. 26-27, 2023. </li>
 </ol>
 
 <hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
@@ -165,17 +165,17 @@ document.addEventListener('DOMContentLoaded', function() {
 -- Some of the conference talks were delivered by co-authors.
 
 <ol class="custom-list">
-    <li>Invited talk at the Theory of Computing Seminar, University of Wisconsin-Madison, Madison, November 2024.</li>
-    <li>Invited talk at the joint Number Theory/Representation Theory and Applied Algebra Seminar, University of Wisconsin-Madison, Madison, October 2024.</li>
-    <li>Invited talk at the SIAM Student Chapter Seminar, University of Wisconsin-Madison, Madison, October 2024.</li>
-    <li>Contributed talk at the 65th IEEE Annual Symposium on Foundations of Computer Science (FOCS), Chicago, October 2024.</li>
-    <li>Contributed talk at the 19th Theory of Quantum Computation, Communication and Cryptography (TQC), Okinawa, September 2024.</li>
-    <li>Invited talk at the Groups Analysis Geometry Seminar, University of Technology Sydney, Sydney, April 2024.</li>
-    <li>Contributed talk at the 45th Australasian Combinatorics Conference, Perth, December 2023.</li>
-    <li>Contributed talk at the 67th Annual Meeting of the Australian Mathematical Society, Brisbane, December 2023.</li>
-    <li>Poster presentation at the 18th Theory of Quantum Computation, Communication and Cryptography (TQC), online, July 2023.</li>
-    <li>Poster presentation at the 1st Quantum Australia Conference, Sydney, February 2023.</li>
-    <li>Invited talk at QuSoft Seminar, Centrum Wiskunde & Informatica, Amsterdam, January 2023.</li>
-    <li>Contributed talk at the 34th ACM-SIAM Symposium on Discrete Algorithms (SODA), Florence, January 2023.</li>
-    <li>Contributed talk at the 44th Australasian Combinatorics Conference, online, December 2022.</li>
+    <li>Invited talk at the Theory of Computing Seminar, University of Wisconsin-Madison, Madison, Nov. 1, 2024.</li>
+    <li>Invited talk at the joint Number Theory/Representation Theory and Applied Algebra Seminar, University of Wisconsin-Madison, Madison, Oct. 31, 2024.</li>
+    <li>Invited talk at the SIAM Student Chapter Seminar, University of Wisconsin-Madison, Madison, Oct. 31, 2024.</li>
+    <li>Contributed talk at the 65th IEEE Annual Symposium on Foundations of Computer Science (FOCS), Chicago, Oct. 29, 2024.</li>
+    <li>Contributed talk at the 19th Theory of Quantum Computation, Communication and Cryptography (TQC), Okinawa, Sep. 10, 2024.</li>
+    <li>Invited talk at the Groups Analysis Geometry Seminar, University of Technology Sydney, Sydney, Apr. 18, 2024.</li>
+    <li>Contributed talk at the 45th Australasian Combinatorics Conference, Perth, Dec. 13, 2023.</li>
+    <li>Contributed talk at the 67th Annual Meeting of the Australian Mathematical Society, Brisbane, Dec. 6, 2023.</li>
+    <li>Poster presentation at the 18th Theory of Quantum Computation, Communication and Cryptography (TQC), online, Jul. 28, 2023.</li>
+    <li>Poster presentation at the 1st Quantum Australia Conference, Sydney, Feb. 22, 2023.</li>
+    <li>Invited talk at QuSoft Seminar, Centrum Wiskunde & Informatica, Amsterdam, Jan. 27, 2023.</li>
+    <li>Contributed talk at the 34th ACM-SIAM Symposium on Discrete Algorithms (SODA), Florence, Jan. 24, 2023.</li>
+    <li>Contributed talk at the 44th Australasian Combinatorics Conference, online, Dec. 12, 2022.</li>
 </ol>
