@@ -65,7 +65,7 @@ nav_order: 3
 -- Authors are listed in alphabetical order, unless specified otherwise.
 
 <ol class="custom-list" style="text-align: justify;">
-    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of \(p\)-groups of Frattini class-\(2\). To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
+    <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of \(p\)-groups of Frattini class \(2\). To appear in 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024). <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
     <li>Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In <em>15th Innovations in Theoretical Computer Science Conference (ITCS 2024)</em>. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. <em>arXiv preprint arXiv:2212.13154</em>, 2022. To appear in Theory of Computing. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. <em>Israel Journal of Mathematics</em>, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a></li>
@@ -89,9 +89,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         content4: 
 `@inproceedings{ivanyos2024faster,
-  title={Faster isomorphism testing of $p$-groups of Frattini class-$2$},
+  title={Faster isomorphism testing of $p$-groups of Frattini class $2$},
   author={Ivanyos, G{\'a}bor and Mendoza, Euan and Qiao, Youming and Sun, Xiaorui and Zhang, Chuanqi},
-  note={To appear in the 65th IEEE Symposium on Foundations of Computer Science (FOCS 2024).}
+  booktitle={2024 IEEE 65th Annual Symposium on Foundations of Computer Science (FOCS)},
+  pages={1408-1424},
+  year={2024},
+  organization={IEEE}
 }`,
         content3: 
 `@inproceedings{chen2023complexity,
@@ -150,9 +153,10 @@ document.addEventListener('DOMContentLoaded', function() {
 #### Academic Visits
 <p style="margin-bottom: 20px;"></p>
 <ol class="custom-list">
-    <li>Department of Mathematics and Department of Computer Sciences, University of Wisconsin-Madison, November 2024. </li>
-    <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Dr Yinan Li</a>, January 2024. </li>
-    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr Jop Briët</a>, January 2023. </li>
+    <li>Department of Computer Sciences, University of Wisconsin-Madison, hosted by <a href="https://sandeepsilwal.com/">Prof Sandeep Silwal</a>, November 1, 2024. </li>
+    <li>Department of Mathematics, University of Wisconsin-Madison, hosted by <a href="https://people.math.wisc.edu/~tonghaiyang/">Prof Tonghai Yang</a>, October 31, 2024. </li>
+    <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Prof Yinan Li</a>, January 12, 2024. </li>
+    <li>QuSoft, Centrum Wiskunde & Informatica, hosted by <a href="https://homepages.cwi.nl/~jop/">Dr Jop Briët</a>, January 26-27, 2023. </li>
 </ol>
 
 <hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
