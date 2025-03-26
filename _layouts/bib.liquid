@@ -222,6 +222,9 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/pdf/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+      {% if entry.eprint %}
+        <a href="https://eprint.iacr.org/{{ entry.eprint }}.pdf" class="btn btn-sm z-depth-0" role="button">ePrint</a>
+      {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>

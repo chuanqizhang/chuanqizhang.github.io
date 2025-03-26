@@ -71,7 +71,11 @@ nav_order: 3
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. <em>Israel Journal of Mathematics</em>, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a></li>
 </ol>
 
+<!-- 
 Two more papers in cryptography have been submitted, with more working papers coming out soon!
+-->
+
+Several more working papers are coming out soon!
 
 <div id="overlay" class="overlay"></div>
 
