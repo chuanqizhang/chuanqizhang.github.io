@@ -8,11 +8,11 @@
 "Vision":
   color: "#009f36"
 
-"Journal":
+"Conference":
   color: "#00369f"
 
-"Conference":
+"Preprint":
   color: "#d64a09"
 
-"Journal + Conference":
+"Journal":
   color: "#d60917"

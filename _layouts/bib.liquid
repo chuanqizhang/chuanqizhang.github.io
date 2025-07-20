@@ -153,7 +153,13 @@
       {% if entry.category == 'Journal' %}
         {% capture entrytype %} <em>{{ entry.journal }}</em>, {{ entry.year }}. {% endcapture %}
       {% elsif entry.category == 'Conference' %}
-        {% capture entrytype %} <em>{{ entry.conference }}</em>. {% endcapture %}
+        {% if entry.invited == 'true' %}
+        {% capture entrytype %} <em>{{ entry.conference }}</em>. Invited to the {{ entry.journal | strip }} Special Issue. {% endcapture %}
+        {% elsif entry.extension == 'true' %}
+          {% capture entrytype %} <em>{{ entry.conference }}</em>. {{ "The extended version has been submitted to a journal." }} {% endcapture %}
+        {% else %}
+          {% capture entrytype %} <em>{{ entry.conference }}</em>. {% endcapture %}
+        {% endif %}
       {% elsif entry.category == 'Journal + Conference' %}
         {% capture entrytype %} <em>{{ entry.journal }}</em>, {{ entry.year }}. {{ "A preliminary version has appeared at" }} <em>{{ entry.conference }}</em>. {% endcapture %}
       {% endif %}
@@ -162,11 +168,13 @@
         {{ "Submitted." }}
       {% elsif entry.category == 'Conference' %}
         {{ "Submitted." }}
+      {% elsif entry.category == 'Preprint' %}
+        {{ "Submitted." }}
       {% elsif entry.category == 'Journal + Conference' %}
         {% if entry.invited == 'true' %}
         {% capture entrytype %} <em>{{ entry.conference }}</em>. Invited to the {{ entry.journal | strip }} Special Issue. {% endcapture %}
         {% else %}
-        {% capture entrytype %} <em>{{ entry.conference }}</em>. {{ "A journal version has been submitted." }} {% endcapture %}
+        {% capture entrytype %} <em>{{ entry.conference }}</em>. {{ "The extended version has been submitted to a journal." }} {% endcapture %}
         {% endif %}
       {% endif %}
     {% elsif proceedings contains entry.type %}
@@ -177,7 +185,13 @@
       {% if entry.category == 'Journal' %}
         {% capture entrytype %}Accepted to <em>{{ entry.journal }}</em>, {{ entry.year }}. {% endcapture %}
       {% elsif entry.category == 'Conference' %}
-        {% capture entrytype %}Accepted to <em>{{ entry.conference }}</em>. {% endcapture %}
+        {% if entry.invited == 'true' %}
+        {% capture entrytype %} <em>{{ entry.conference }}</em>. Invited to the {{ entry.journal | strip }} Special Issue. {% endcapture %}
+        {% elsif entry.extension == 'true' %}
+          {% capture entrytype %}Accepted to <em>{{ entry.conference }}</em>. {{ "The extended version has been submitted to a journal." }} {% endcapture %}
+        {% else %}
+          {% capture entrytype %}Accepted to <em>{{ entry.conference }}</em>. {% endcapture %}
+        {% endif %}
       {% elsif entry.category == 'Journal + Conference' %}
         {% capture entrytype %}Accepted to <em>{{ entry.journal }}</em>, {{ entry.year }}. {{ "A preliminary version has appeared at" }} <em>{{ entry.conference }}</em>. {% endcapture %}
       {% endif %}
