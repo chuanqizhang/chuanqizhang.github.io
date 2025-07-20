@@ -7,6 +7,13 @@ nav: true
 nav_order: 3
 ---
 
+<script>
+if (window.location.hash) {
+  sessionStorage.setItem('scrollTarget', window.location.hash.slice(1));
+  history.replaceState(null, null, window.location.pathname);
+}
+</script>
+
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 <style>
     body {
@@ -192,5 +199,18 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('popup').style.display = 'none';
         document.getElementById('overlay').style.display = 'none';
     });
+});
+</script>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const targetId = sessionStorage.getItem('scrollTarget');
+  if (targetId) {
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+    sessionStorage.removeItem('scrollTarget');
+  }
 });
 </script>
