@@ -91,7 +91,7 @@ nav_order: 3
     <li>Contributed talk at the 44th Australasian Combinatorics Conference, online, Dec. 12, 2022.</li>
 </ol>
 
-<hr style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
+<hr id="Pub" style="width: 100%; margin-top: 30px; margin-bottom: 30px;"/>
 
 #### Publications
 -- Authors are listed in alphabetical order, unless specified otherwise.
