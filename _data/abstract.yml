@@ -31,6 +31,10 @@
 
   abs2: In this paper, we improve Sun's algorithm by presenting an $N^{\tilde O((\log N)^{1/2})}$-time algorithm for this group class. We also extend our result to the more general $p$-groups of Frattini class $2$. Our algorithm is obtained by sharpening the key technical ingredients in Sun's algorithm and building connections with other research topics. One intriguing connection is with the maximal and non-commutative ranks of matrix spaces, which have recently received considerable attention in algebraic complexity and computational invariant theory. Results from the theory of Tensor Isomorphism complexity class (Grochow&ndash;Qiao, <em>SIAM J. Comput.</em> '23) are utilized to simplify the algorithm and achieve the extension to $p$-groups of Frattini class $2$.
 
+"5":
+
+  abs1: In Diffie--Hellman key exchange, the commutativity of power operations is instrumental in the agreement of keys. Viewing commutativity as a law in abelian groups, we propose Diffie--Hellman key exchange in the group action framework (Brassard--Yung, CRYPTO'90; Ji--Qiao--Song--Yun, TCC'19), for actions of non-abelian groups with laws. The security of this protocol is shown, following Fischlin, Günther, Schmidt, and Warinschi (IEEE S&P'16), based on a pseudorandom group action assumption. A concrete instantiation is proposed based on the monomial code equivalence problem.
+
 "6":
 
   abs1: We provide a generic construction of blind signatures from cryptographic group actions following the framework of the blind signature $\textsf{CSI-Otter}$ introduced by Katsumata et al. (CRYPTO'23) in the context of isogeny (commutative group action). We adapt and modify that framework to make it work even for non-commutative group actions. As a result, we obtain a blind signature from abstract group actions which are proven to be secure in the random oracle model. We also propose an instantiation based on a variant of linear code equivalence, interpreted as a symmetric group action.
