@@ -33,7 +33,7 @@
 
 "5":
 
-  abs1: In Diffie--Hellman key exchange, the commutativity of power operations is instrumental in the agreement of keys. Viewing commutativity as a law in abelian groups, we propose Diffie--Hellman key exchange in the group action framework (Brassard--Yung, CRYPTO'90; Ji--Qiao--Song--Yun, TCC'19), for actions of non-abelian groups with laws. The security of this protocol is shown, following Fischlin, Günther, Schmidt, and Warinschi (IEEE S&P'16), based on a pseudorandom group action assumption. A concrete instantiation is proposed based on the monomial code equivalence problem.
+  abs1: In Diffie&ndash;Hellman key exchange, the commutativity of power operations is instrumental in the agreement of keys. Viewing commutativity as a law in abelian groups, we propose Diffie&ndash;Hellman key exchange in the group action framework (Brassard&ndash;Yung, CRYPTO'90; Ji&ndash;Qiao&ndash;Song&ndash;Yun, TCC'19), for actions of non-abelian groups with laws. The security of this protocol is shown, following Fischlin, Günther, Schmidt, and Warinschi (IEEE S&P'16), based on a pseudorandom group action assumption. A concrete instantiation is proposed based on the monomial code equivalence problem.
 
 "6":
 
