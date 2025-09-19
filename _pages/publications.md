@@ -104,8 +104,9 @@ if (window.location.hash) {
 -- Authors are listed in alphabetical order, unless specified otherwise.
 
 <ol class="custom-list" style="text-align: justify;">
+    <li>Dung Hoang Duong, Youming Qiao, and Chuanqi Zhang. Diffie–Hellman key exchange from commutativity to group laws. <em>Cryptology ePrint Archive</em>, 2025. <a href="#" class="bibTeXLink" data-content-id="content6">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. On linear-algebraic notions of expansion. <em>Theory of Computing</em>, 21(1):1–28, 2025. <a href="#" class="bibTeXLink" data-content-id="content2">[BibTeX]</a></li>
-    <li>Dung Hoang Duong, Xuan Thanh Khuc, Youming Qiao, and Chuanqi Zhang. Blind signatures from cryptographic group actions. <em>Cryptology ePrint Archive</em>, 2025. <a href="#" class="bibTeXLink" data-content-id="content5">[BibTeX]</a></li>
+    <li>Dung Hoang Duong, Xuan Thanh Khuc, Youming Qiao, Willy Susilo, and Chuanqi Zhang. Blind signatures from cryptographic group actions. <em>Cryptology ePrint Archive</em>, 2025. <a href="#" class="bibTeXLink" data-content-id="content5">[BibTeX]</a></li>
     <li>Gábor Ivanyos, Euan Mendoza, Youming Qiao, Xiaorui Sun, and Chuanqi Zhang. Faster isomorphism testing of \(p\)-groups of Frattini class \(2\). In <em>2024 IEEE 65th Annual Symposium on Foundations of Computer Science (FOCS)</em>, pages 1408-1424. IEEE, 2024. To appear in SIAM Journal on Computing. <a href="#" class="bibTeXLink" data-content-id="content4">[BibTeX]</a></li>
     <li>Zhili Chen, Joshua A Grochow, Youming Qiao, Gang Tang, and Chuanqi Zhang. On the complexity of isomorphism problems for tensors, groups, and polynomials III: Actions by classical groups. In <em>15th Innovations in Theoretical Computer Science Conference (ITCS 2024)</em>. Schloss-Dagstuhl-Leibniz Zentrum für Informatik, 2024. <a href="#" class="bibTeXLink" data-content-id="content3">[BibTeX]</a></li>
     <li>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, and Chuanqi Zhang. Connections between graphs and matrix spaces. <em>Israel Journal of Mathematics</em>, 256(2):513–580, 2023. <a href="#" class="bibTeXLink" data-content-id="content1">[BibTeX]</a></li>
@@ -131,6 +132,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
      const contents = {
 
+        content6: 
+`@article{duong2025diffie,
+  title={Diffie--Hellman key exchange from commutativity to group laws},
+  author={Duong, Dung Hoang and and Qiao, Youming and Zhang, Chuanqi},
+  journal={Cryptology ePrint Archive},
+  year={2025}
+}`,
+
         content5: 
 `@article{duong2025blind,
   title={Blind signatures from cryptographic group actions},
@@ -141,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         content4: 
 `@inproceedings{ivanyos2024faster,
   title={Faster isomorphism testing of $p$-groups of Frattini class $2$},
-  author={Ivanyos, G{\'a}bor and Mendoza, Euan and Qiao, Youming and Sun, Xiaorui and Zhang, Chuanqi},
+  author={Ivanyos, G{\\'a}bor and Mendoza, Euan and Qiao, Youming and Sun, Xiaorui and Zhang, Chuanqi},
   booktitle={2024 IEEE 65th Annual Symposium on Foundations of Computer Science (FOCS)},
   pages={1408-1424},
   year={2024},
