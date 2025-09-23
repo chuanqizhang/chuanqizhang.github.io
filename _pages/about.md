@@ -37,7 +37,7 @@ I am currently a Ph.D. candidate at the [Centre for Quantum Software and Informa
 
 <!-- My research interests lie in a broad area between mathematics and theoretical computer science. Specifically, I have been involving myself in algebraic isomorphism algorithms, multilinear algebra with implications for quantum information, tensor decomposition with applications in quantum machine learning, and group-based cryptography. Before my Ph.D. journey, I earned my B.Sc. and M.A. in Mathematics from [Wuhan University](https://en.whu.edu.cn/) and the [University of Wisconsin-Madison](https://www.wisc.edu/), respectively. -->
 
-My research interests lie in a broad area between mathematics and theoretical computer science. Specifically, I have been working on different algebraic structures, studying their connections and isomorphism problems, and designing corresponding algorithms and protocols for application in post-quantum cryptography. 
+My research interests lie in a broad area between mathematics and theoretical computer science. Specifically, I have been working on different algebraic structures, studying their connections and isomorphism problems with implications to quantum information theory, and designing corresponding algorithms and protocols for application in post-quantum cryptography. 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
