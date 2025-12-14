@@ -71,6 +71,7 @@ if (window.location.hash) {
 #### Academic Visits
 <p style="margin-bottom: 20px;"></p>
 <ol class="custom-list">
+    <li>Institute of Cybersecurity and Cryptology, University of Wollongong, hosted by <a href="https://sites.google.com/view/dung-duong/home">Dr. Dung Hoang Duong</a>, Dec. 19, 2025. </li>
     <li>Department of Computer Sciences, University of Wisconsin-Madison, hosted by <a href="https://sandeepsilwal.com/">Prof. Sandeep Silwal</a>, Nov. 1, 2024. </li>
     <li>Department of Mathematics, University of Wisconsin-Madison, hosted by <a href="https://people.math.wisc.edu/~tonghaiyang/">Prof. Tonghai Yang</a>, Oct. 31, 2024. </li>
     <li>School of Mathematics and Statistics, Wuhan University, hosted by <a href="https://www.yinanli.com/">Prof. Yinan Li</a>, Jan. 12, 2024. </li>
@@ -83,6 +84,8 @@ if (window.location.hash) {
 -- Some of the conference talks were delivered by co-authors.
 
 <ol class="custom-list">
+    <li>Contributed talk at the 69th Annual Meeting of the Australian Mathematical Society, Melbourne Dec. 9, 2023.</li>
+    <li>Invited talk at the 1st international workshop of Cryptography for Real-World Assets affiliated with Asiacrypt 2025, Melbourne, Dec. 8, 2025. (Honored with the Distinguished Talk Award!)</li>
     <li>Invited talk at the Theory of Computing Seminar, University of Wisconsin-Madison, Madison, Nov. 1, 2024.</li>
     <li>Invited talk at the joint Number Theory/Representation Theory and Applied Algebra Seminar, University of Wisconsin-Madison, Madison, Oct. 31, 2024.</li>
     <li>Invited talk at the SIAM Student Chapter Seminar, University of Wisconsin-Madison, Madison, Oct. 31, 2024.</li>
