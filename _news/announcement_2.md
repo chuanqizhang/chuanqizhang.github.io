@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-This is a release of my profile interview as a recipient of the Australian Mathematical Sciences Institute (AMSI) Scholarship. Please read it [here](https://rhed.amsi.org.au/chuanqi-zhang/).
+This is a release of my profile interview as a recipient of the Australian Mathematical Sciences Institute (AMSI) Scholarship. Please read it [here](https://web.archive.org/web/20250803182148/https://rhed.amsi.org.au/chuanqi-zhang/).
