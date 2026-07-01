@@ -1,6 +1,6 @@
 ---
 layout: page
-title: In the News
+title: In the Media
 permalink: /news/
 ---
 
