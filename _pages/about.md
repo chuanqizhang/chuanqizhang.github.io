@@ -32,9 +32,13 @@ social: true # includes social icons at the bottom of the page
 <div style="text-align: justify"> My research interests lie broadly between mathematics and theoretical computer science. Specifically, I have been working on algebraic isomorphism algorithms, multilinear algebra with implications for quantum information, optimization theory with applications in variational quantum algorithms, and non-commutative cryptography. Before my Ph.D. journey, I earned my B.Sc. and M.A. in Mathematics from <a href="https://en.whu.edu.cn/">Wuhan University</a> and the <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>, respectively. </div>
 -->
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-
+<!-- 
+<span style="display:block; text-align:justify;">
+-->
 I am currently a Research Fellow in the [Cybersecurity Group](https://www.monash.edu/it/ssc/cybersecurity) at [Monash University](https://www.monash.edu/) under the supervision of [Dr. Muhammed Esgin](https://mfesgin.github.io/) and [Prof. Ron Steinfeld](https://research.monash.edu/en/persons/ron-steinfeld/). I earned My Ph.D. from the [Centre for Quantum Software and Information](https://www.uts.edu.au/research/centres/centre-quantum-software-and-information), [University of Technology Sydney](https://www.uts.edu.au/), where I feel very fortunate to be advised by [Prof. Youming Qiao](https://sites.google.com/site/jimmyqiao86/), as well as co-advised by [Prof. Mingsheng Ying](https://profiles.uts.edu.au/Mingsheng.Ying) and [Prof. Troy Lee](https://profiles.uts.edu.au/Troy.Lee/). Before that, I completed my M.A. and B.Sc. in Mathematics at the [University of Wisconsin-Madison](https://www.wisc.edu/) and [Wuhan University](https://en.whu.edu.cn/), respectively. My research interests lie in a broad area between mathematics and theoretical computer science, with a focus on their applications in cryptography.
-
+<!-- 
+</span>
+-->
 <!-- Specifically, I have been working on different algebraic structures, studying their connections and isomorphism problems with implications to quantum information theory, and designing corresponding algorithms and protocols for application in post-quantum cryptography. -->
 
 <!-- My research interests lie in a broad area between mathematics and theoretical computer science. Specifically, I have been involving myself in algebraic isomorphism algorithms, multilinear algebra with implications for quantum information, tensor decomposition with applications in quantum machine learning, and group-based cryptography. Before my Ph.D. journey, I earned my B.Sc. and M.A. in Mathematics from [Wuhan University](https://en.whu.edu.cn/) and the [University of Wisconsin-Madison](https://www.wisc.edu/), respectively. -->
