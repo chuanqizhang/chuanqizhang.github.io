@@ -62,6 +62,23 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '\d$', '' | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+
+        {%- assign author_last_clean = author.last | strip | downcase -%}
+        {%- assign author_last_placeholder_test = author_last_clean | regex_replace: '^placeholder[0-9]+$', 'PLACEHOLDER_MATCH' -%}
+        {%- assign author_has_placeholder_last = false -%}
+        {%- if author_last_placeholder_test == 'PLACEHOLDER_MATCH' -%}
+          {%- assign author_has_placeholder_last = true -%}
+        {%- endif -%}
+
+        {%- capture author_full_name -%}
+          {%- if author_has_placeholder_last -%}
+            {{ author.first }}
+          {%- else -%}
+            {{ author.first }} {{ author_last_html }}
+          {%- endif -%}
+        {%- endcapture -%}
+        {%- assign author_full_name = author_full_name | strip -%}
+
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -84,18 +101,15 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{- author.first }}
-            {{ author_last_html -}}
+            {{- author_full_name -}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
+              {{- author_full_name -}}
             </a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
+            {{- author_full_name -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -169,7 +183,9 @@
       {% elsif entry.category == 'Conference' %}
         {{ "Submitted." }}
       {% elsif entry.category == 'Preprint' %}
-        {{ "Submitted." }}
+        {% if entry.submission != 'none' %}
+          {{ "Submitted." }}
+        {% endif %}
       {% elsif entry.category == 'Journal + Conference' %}
         {% if entry.invited == 'true' %}
         {% capture entrytype %} <em>{{ entry.conference }}</em>. Invited to the {{ entry.journal | strip }} Special Issue. {% endcapture %}

@@ -23,11 +23,29 @@ nav_order: 4
     }
 </style>
 
+#### Co-Lecturer and Unit Coordinator
+
+-- Mainly responsible for delivering partial lectures, leading applied sessions, and designing course materials.
+
+<ol class="custom-list">
+    <li>Emerging Topics in Cybersecurity, Department of Software Systems and Cybersecurity, Monash University, 2026. 
+    <br>
+    <a href="../assets/pdf/teaching/5124week8-1.pdf">[Slides 1]</a>
+    <a href="../assets/pdf/teaching/5124week8-2.pdf">[Slides 2]</a>
+    <a href="../assets/pdf/teaching/5124week8-3.pdf">[Slides 3]</a>
+    <a href="../assets/pdf/teaching/5124week9-1.pdf">[Slides 4]</a>
+    <a href="../assets/pdf/teaching/5124week9-2.pdf">[Slides 5]</a>
+    <a href="../assets/pdf/teaching/5124week9-3.pdf">[Slides 6]</a>
+    </li>
+</ol>
+
+
 #### Teaching Assistant
--- Mainly resposinble for leading discussion classes and delivering tutorial lectures.
+-- Mainly responsible for leading discussion classes and delivering tutorial lectures.
 
 <!-- <p style="margin-bottom: 20px;"></p> -->
 <ol class="custom-list">
+    <li>Introduction to Cryptography for Cybersecurity, Department of Software Systems and Cybersecurity, Monash University, 2026. </li>
     <li>Theory of Computing Science, School of Computer Science, University of Technology Sydney, 2022-2024. 
     <br>
     <a href="../assets/pdf/teaching/41080week2.pdf">[Slides 1]</a>
